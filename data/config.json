@@ -1,0 +1,15 @@
+{
+    "hedge": {
+        "pir_runs": 500, // The amount the pir sensor has to read positive to trigger
+        "after": 18, // The time to run after
+        "before": 6 // The time to run after
+    },
+    "video": {
+        "record_time": 10,
+        "file1_name": "1stPASS.mp4", // Name of the 1st file
+        "file2_name": "2ndPASS.mp4", // Name of the 2nd file
+        "font_path": "/home/pi/.fonts/NovaRound.ttf",
+        "font_size": 48,
+        "font_colour": "orange"
+    }
+}
